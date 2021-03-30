@@ -1,0 +1,1 @@
+docker run --name planeerrijabackend -e POSTGRES_PASSWORD=123456 -e POSTGRES_USER=fitz -p 5433:5432 -d postgres
